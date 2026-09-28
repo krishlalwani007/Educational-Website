@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edusite - Online Education & Learning</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMontserrat:400,600,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="CSS/bootstrap.min.css"/>
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+
+    <!-- Custom stylesheet -->
+    <link type="text/css" rel="stylesheet" href="CSS/style.css"/>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Logo -->
+                <div class="navbar-brand">
+                    <a href="index.html">
+                        <img class="logo" src="Images/logo.png" alt="Edusite">
+                    </a>
+                </div>
+
+                <button class="navbar-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                </button>
+            </div>
+
+            <!-- Navigation -->
+            <nav id="nav">
+                <ul class="main-menu nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            My Courses <i class="fa fa-angle-down nav-arrow"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="courses.html"><i class="fa fa-code"></i> Python</a></li>
+                            <li><a href="courses.html"><i class="fa fa-terminal"></i> C</a></li>
+                            <li><a href="courses.html"><i class="fa fa-coffee"></i> Java</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="blog-post.html">Post</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Home Hero Area -->
+    <div id="home" class="hero-area">
+        <div class="bg-image bg-parallax overlay" style="background-image:url('Images/home-background.jpg')"></div>
+
+        <div class="home-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class="white-text">We help students to learn and achieve their goals</h1>
+                        <p class="lead white-text">Discover hundreds of interactive online courses taught by expert instructors to advance your career and master new skills today.</p>
+                        <a class="main-button icon-button" href="courses.html">Get Started!</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- /Home Hero Area -->
+
+    <!-- About Section -->
+    <div id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-header">
+                        <h2>About Edusite</h2>
+                        <p class="lead">Empowering lifelong learners with world-class education, practical skills, and continuous support.</p>
+                    </div>
+
+                    <div class="feature">
+                        <i class="feature-icon fa fa-flask"></i>
+                        <div class="feature-content">
+                            <h4>Online Courses</h4>
+                            <p>Access a wide selection of top-tier courses with interactive lessons, hands-on projects, and flexible scheduling.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <i class="feature-icon fa fa-users"></i>
+                        <div class="feature-content">
+                            <h4>Expert Teachers</h4>
+                            <p>Learn directly from industry leaders and passionate educators dedicated to your personal and professional growth.</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <i class="feature-icon fa fa-comments"></i>
+                        <div class="feature-content">
+                            <h4>Community</h4>
+                            <p>Connect with thousands of ambitious learners worldwide to collaborate, share insights, and build valuable networks.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="about-img text-center" style="margin-top: 30px;">
+                        <img src="Images/about.png" alt="About Edusite" style="max-width: 100%; height: auto;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /About Section -->
+
+    <!-- Courses Preview Section -->
+    <div class="section" style="background-color: #F8F9FA;">
+        <div class="container">
+            <div class="row">
+                <div class="section-header text-center">
+                    <h2>Explore Courses</h2>
+                    <p>Browse through our curated collection of high-impact courses designed to help you build real-world expertise.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="course">
+                        <a href="courses.html" class="course-img">
+                            <img src="Images/course01.jpg" alt="Excel Course">
+                            <i class="course-link-icon fa fa-link"></i>
+                        </a>
+                        <a class="course-title" href="courses.html">Beginner to Pro in Excel: Financial Modeling and Valuation</a>
+                        <div class="course-details">
+                            <span class="course-category">Business</span>
+                            <span class="course-price course-free">Free</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="course">
+                        <a href="courses.html" class="course-img">
+                            <img src="Images/course02.jpg" alt="CSS Course">
+                            <i class="course-link-icon fa fa-link"></i>
+                        </a>
+                        <a class="course-title" href="courses.html">Introduction to CSS</a>
+                        <div class="course-details">
+                            <span class="course-category">Web Design</span>
+                            <span class="course-price course-premium">Premium</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="course">
+                        <a href="courses.html" class="course-img">
+                            <img src="Images/course03.jpg" alt="Drawing Course">
+                            <i class="course-link-icon fa fa-link"></i>
+                        </a>
+                        <a class="course-title" href="courses.html">The Ultimate Drawing Course | From Beginner To Advanced</a>
+                        <div class="course-details">
+                            <span class="course-category">Drawing</span>
+                            <span class="course-price course-premium">Premium</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="course">
+                        <a href="courses.html" class="course-img">
+                            <img src="Images/course04.jpg" alt="Web Development Course">
+                            <i class="course-link-icon fa fa-link"></i>
+                        </a>
+                        <a class="course-title" href="courses.html">The Complete Web Development Course</a>
+                        <div class="course-details">
+                            <span class="course-category">Web Development</span>
+                            <span class="course-price course-free">Free</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 center-btn">
+                    <a class="main-button icon-button" href="courses.html">More Courses</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Courses Preview Section -->
+
+    <!-- Call To Action (Banner 1) -->
+    <div id="cta" class="section">
+        <div class="bg-image bg-parallax overlay" style="background-image:url('Images/cta1-background.jpg')"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="white-text">Start Learning with Edusite Today & Unlock Your Potential</h2>
+                    <p class="lead white-text">Join over 50,000 students already mastering new skills in web development, design, photography, and business.</p>
+                    <a class="main-button icon-button" href="courses.html">Get Started!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Call To Action (Banner 1) -->
+
+    <!-- Why Edusite & Video Section -->
+    <div id="why-us" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="section-header text-center">
+                    <h2>Why Edusite</h2>
+                    <p class="lead">Empowering lifelong learners with world-class education, practical skills, and continuous support.</p>
+                </div>
+            </div>
+            
+            <!-- 3 Features -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="feature-icon fa fa-flask"></i>
+                        <div class="feature-content">
+                            <h4>Online Courses</h4>
+                            <p>Access a wide selection of top-tier courses with interactive lessons, hands-on projects, and flexible scheduling.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="feature-icon fa fa-users"></i>
+                        <div class="feature-content">
+                            <h4>Expert Teachers</h4>
+                            <p>Learn directly from industry leaders and passionate educators dedicated to your personal and professional growth.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="feature-icon fa fa-comments"></i>
+                        <div class="feature-content">
+                            <h4>Community</h4>
+                            <p>Connect with thousands of ambitious learners worldwide to collaborate, share insights, and build valuable networks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="section-hr">
+
+            <!-- Video Section -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Transform Your Learning Experience with Interactive Visual Education</h3>
+                    <p class="lead">Gain in-demand skills through comprehensive video lessons, practical projects, and personalized mentorship.</p>
+                    <p>Our modern curriculum is built around practical application. Whether you are advancing your career or exploring a new passion, our courses provide the structure, feedback, and support you need to succeed every step of the way.</p>
+                </div>
+                <div class="col-md-5 col-md-offset-1">
+                    <a class="about-video" href="#">
+                        <img src="Images/about-video.jpg" alt="Video">
+                        <i class="play-icon fa fa-play"></i>
+                        <span>Watch Video!</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Why Edusite & Video Section -->
+
+    <!-- Recent Blog Posts Section -->
+    <div id="blog" class="section" style="background-color: #F8F9FA;">
+        <div class="container">
+            <div class="row">
+                <div class="section-header text-center">
+                    <h2>From The Blog</h2>
+                    <p>Stay updated with our latest news, educational articles, and announcements.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Blog 1 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <a href="blog-post.html">
+                                <img src="Images/blog01.jpg" alt="Blog 1">
+                            </a>
+                        </div>
+                        <h4><a href="blog-post.html">We are ranked among the top 50 universities worldwide</a></h4>
+                        <div class="blog-meta">
+                            <span class="blog-meta-author">By: <a href="#">John Doe</a></span>
+                            <div class="pull-right">
+                                <span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i>18</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 2 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <a href="blog-post.html">
+                                <img src="Images/blog02.jpg" alt="Blog 2">
+                            </a>
+                        </div>
+                        <h4><a href="blog-post.html">Cultivating genius within the modern academic elite</a></h4>
+                        <div class="blog-meta">
+                            <span class="blog-meta-author">By: <a href="#">Jane Smith</a></span>
+                            <div class="pull-right">
+                                <span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i>42</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <a href="blog-post.html">
+                                <img src="Images/blog03.jpg" alt="Blog 3">
+                            </a>
+                        </div>
+                        <h4><a href="blog-post.html">Learn alongside the sharpest minds in higher education</a></h4>
+                        <div class="blog-meta">
+                            <span class="blog-meta-author">By: <a href="#">Sam Jansen</a></span>
+                            <div class="pull-right">
+                                <span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i>29</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 4 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-blog">
+                        <div class="blog-img">
+                            <a href="blog-post.html">
+                                <img src="Images/blog04.jpg" alt="Blog 4">
+                            </a>
+                        </div>
+                        <h4><a href="blog-post.html">Building an elite international professional network</a></h4>
+                        <div class="blog-meta">
+                            <span class="blog-meta-author">By: <a href="#">Gideon Vance</a></span>
+                            <div class="pull-right">
+                                <span class="blog-meta-comments"><a href="#"><i class="fa fa-comments"></i>15</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 center-btn">
+                    <a class="main-button icon-button" href="blog.html">View All Posts</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Recent Blog Posts Section -->
+
+    <!-- Contact CTA Section (Banner 2) -->
+    <div id="contact-cta" class="section">
+        <div class="bg-image bg-parallax overlay" style="background-image:url('Images/cta2-background.jpg')"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <h2 class="white-text">Have Questions? Contact Us Today</h2>
+                    <p class="lead white-text">Our friendly admissions and academic team is here to assist you with course information, enrollment, and personalized learning plans.</p>
+                    <a class="main-button icon-button" href="contact.html">Contact Us Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Contact CTA Section (Banner 2) -->
+
+    <!-- Footer -->
+    <footer id="footer" class="section">
+        <div class="container">
+            <!-- Top Footer -->
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <img src="Images/logo.png" alt="Edusite">
+                    </a>
+                </div>
+                <ul class="footer-menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <hr class="footer-divider">
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <span>&copy; Copyright 2018. All Rights Reserved. | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a></span>
+                </div>
+                <ul class="footer-social">
+                    <li><a href="#" class="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="google-plus" aria-label="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#" class="instagram" aria-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#" class="youtube" aria-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#" class="linkedin" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- jQuery Plugins -->
+    <script type="text/javascript" src="JavaScripts/jquery.min.js"></script>
+    <script type="text/javascript" src="JavaScripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="JavaScripts/main.js"></script>
+
+</body>
+</html>

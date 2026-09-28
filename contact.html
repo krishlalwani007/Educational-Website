@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edusite - Contact Us</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMontserrat:400,600,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="CSS/bootstrap.min.css"/>
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+
+    <!-- Custom stylesheet -->
+    <link type="text/css" rel="stylesheet" href="CSS/style.css"/>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Logo -->
+                <div class="navbar-brand">
+                    <a href="index.html">
+                        <img class="logo" src="Images/logo.png" alt="Edusite">
+                    </a>
+                </div>
+
+                <button class="navbar-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                </button>
+            </div>
+
+            <!-- Navigation -->
+            <nav id="nav">
+                <ul class="main-menu nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            My Courses <i class="fa fa-angle-down nav-arrow"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="courses.html"><i class="fa fa-code"></i> Python</a></li>
+                            <li><a href="courses.html"><i class="fa fa-terminal"></i> C</a></li>
+                            <li><a href="courses.html"><i class="fa fa-coffee"></i> Java</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="blog-post.html">Post</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Hero-area -->
+    <div class="hero-area section">
+        <!-- Background Image -->
+        <div class="bg-image bg-parallax overlay" style="background-image:url('Images/page-background.jpg')"></div>
+        <!-- /Background Image -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 text-center">
+                    <ul class="hero-area-tree">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Contact</li>
+                    </ul>
+                    <h1 class="white-text">Get In Touch</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Hero-area -->
+
+    <!-- Contact -->
+    <div id="contact" class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+
+                <!-- contact form -->
+                <div class="col-md-6">
+                    <div class="contact-form">
+                        <h4>Send A Message</h4>
+                        <p class="form-desc">Have a question or need assistance? Send us a message and our team will get back to you shortly.</p>
+                        
+                        <div id="form-success" class="form-alert-success">
+                            <i class="fa fa-check-circle"></i> Thank you! Your message has been sent successfully. We will contact you soon.
+                        </div>
+
+                        <form id="contact-form" action="#" method="POST">
+                            <div class="form-group">
+                                <input class="input" type="text" name="name" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="input" type="email" name="email" id="email" placeholder="Your Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="input" type="text" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="input" name="message" id="message" placeholder="Enter your message..." rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="main-button icon-button pull-right">
+                                Send Message <i class="fa fa-paper-plane" style="margin-left: 6px;"></i>
+                            </button>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                </div>
+                <!-- /contact form -->
+
+                <!-- contact information -->
+                <div class="col-md-5 col-md-offset-1">
+                    <h4 class="contact-info-title">Contact Information</h4>
+                    <p class="contact-info-desc">Reach out to our dedicated admissions and academic support team anytime through the channels below.</p>
+
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <div>
+                                <span style="display:block; font-size:12px; color:#8D9AA8; text-transform:uppercase; font-weight:700; letter-spacing:0.5px;">Email Us</span>
+                                <a href="mailto:Educate@email.com">Educate@email.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <div>
+                                <span style="display:block; font-size:12px; color:#8D9AA8; text-transform:uppercase; font-weight:700; letter-spacing:0.5px;">Call Us</span>
+                                <a href="tel:+112254722345">+1 (122) 547-223-45</a>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            <div>
+                                <span style="display:block; font-size:12px; color:#8D9AA8; text-transform:uppercase; font-weight:700; letter-spacing:0.5px;">Visit Campus</span>
+                                <span>4476 Clement Street, Atlanta, GA 30303</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa fa-clock-o"></i>
+                            <div>
+                                <span style="display:block; font-size:12px; color:#8D9AA8; text-transform:uppercase; font-weight:700; letter-spacing:0.5px;">Office Hours</span>
+                                <span>Mon – Fri: 8:30 AM – 6:00 PM EST</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- contact map -->
+                    <div id="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.4862590210214!2d-84.39026442436798!3d33.77402633237894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f504634045f29d%3A0x2db496a75168bc66!2sGeorgia%20Institute%20of%20Technology!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="260" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Edusite Location Map"></iframe>
+                    </div>
+                    <!-- /contact map -->
+
+                </div>
+                <!-- /contact information -->
+            </div>
+            <!-- /row -->
+
+        </div>
+        <!-- /container -->
+
+    </div>
+    <!-- /Contact -->
+ 
+    <!-- Footer -->
+    <footer id="footer" class="section">
+        <div class="container">
+            <!-- Top Footer -->
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <img src="Images/logo.png" alt="Edusite">
+                    </a>
+                </div>
+                <ul class="footer-menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <hr class="footer-divider">
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <span>&copy; Copyright 2018. All Rights Reserved. | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a></span>
+                </div>
+                <ul class="footer-social">
+                    <li><a href="#" class="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="google-plus" aria-label="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#" class="instagram" aria-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#" class="youtube" aria-label="YouTube"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#" class="linkedin" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- jQuery Plugins -->
+    <script type="text/javascript" src="JavaScripts/jquery.min.js"></script>
+    <script type="text/javascript" src="JavaScripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="JavaScripts/main.js"></script>
+
+</body>
+</html>
